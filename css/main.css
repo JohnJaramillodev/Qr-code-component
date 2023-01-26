@@ -1,0 +1,32 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    font-size: 62.5%;
+    background-color: var(--light-gray);
+}
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+main .card {
+    background-color: var(--white);
+}
+
+.card .card--qr-container img {
+    width: 100%;
+}
